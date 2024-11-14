@@ -4,7 +4,7 @@ from utils import generate_audio
 
 
 with gr.Blocks() as demo:
-    gr.Markdown('<center><h1>Vietnamese TTS Demo</h1></center>')
+    gr.Markdown('<center><h1>TTS Demo</h1></center>')
     gr.Markdown('To use our application, now input your prompt to the box below and click to Run button to hear your audio')
 
 demo = gr.Interface(
